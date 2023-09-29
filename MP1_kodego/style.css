@@ -1,0 +1,48 @@
+*body{
+  margin: 0;
+  padding: 0;
+}
+/*nav-style*/
+.navbar-collapse {
+  flex-grow: unset;
+}
+.navbar-brand {
+  font-family:'Amatic SC' ;
+  letter-spacing: 8px;
+  font-weight: 700;
+}
+.navbar-brand :hover {
+  background-color: darkgoldenrod;
+  color: black;
+  transform: scale(2);
+}
+span{
+  font-size: 24px;
+  color: darkgoldenrod;
+}
+.custom-toggler.navbar-toggler {
+  border-color: darkgoldenrod;
+}
+
+.nav-item a:hover{
+ background-color: darkgoldenrod;
+ color: black;
+}
+/*nav-style-end*/
+
+/*Section*/
+
+.card-section{
+  background-image: url(images/360_F_192469229_pg9YHFkox4e9WLH8h0SF9it7rOSxvOoa.jpg);
+}
+
+h1{
+  font-family:'Amatic SC' ;
+  letter-spacing: 8px;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+.browseMenu{
+  text-decoration: none;
+}
